@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_margin="16dp"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <ImageView
+                android:paddingTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/image"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azhar Haeza Faunsyah"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16090091"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+        <TextView
+                android:layout_marginTop="300dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Form Seminar Project UAS"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+</RelativeLayout>
